@@ -28,11 +28,13 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
     feedjira (3.2.2)
       loofah (>= 2.3.1)
       sax-machine (>= 1.0)
     ffi (1.15.5)
+    ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     gemoji (4.0.1)
     html-pipeline (2.14.3)
@@ -121,6 +123,8 @@ GEM
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.13.9-x86-mingw32)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.0)
@@ -142,10 +146,12 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.3.0)
     unicode_utils (1.4.0)
+    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   feedjira
@@ -164,6 +170,7 @@ DEPENDENCIES
   jekyll-twitter-plugin
   jemoji
   unicode_utils
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH
